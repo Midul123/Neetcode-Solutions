@@ -1,4 +1,4 @@
-#Leetcode125
+
 def isPalindrome(str):
     clean = ""
     reverse= ""
@@ -12,3 +12,17 @@ def isPalindrome(str):
     return clean==reverse
 
 print(isPalindrome("A man, a plan, a canal: Panama"))
+
+
+###
+##FASTER SOLUTION
+###
+# def isPalindrome(s):
+#     clean = []
+#     for char in s:
+#         if char.isalnum():
+#             clean.append(char.lower())
+#     clean_string = ''.join(clean)
+#     reverse = clean_string[::-1]
+#     return clean_string==reverse
+# print(isPalindrome("A man, a plan, a canal: Panama"))
