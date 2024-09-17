@@ -7,7 +7,7 @@ def isHappy(n):
                 sumN+=int(i)**2
             if sumN in trackN:
                 return False
-                break
+                
             trackN.append(sumN)
             n=sumN
         return True
