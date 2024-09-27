@@ -1,4 +1,5 @@
 #leetcode20
+#first attempt
 def isValid(s):
     closeOpen= { ")":"(", "]":"[", "}":"{" }
     stack =[]
